@@ -5,8 +5,8 @@ Slingshot.fileRestrictions("myFileUploads", {
 
 
 Slingshot.createDirective("myFileUploads", Slingshot.S3Storage, {
-  AWSAccessKeyId: "AKIAI7XH62LZZT7QPFOQ",
-  AWSSecretAccessKey: "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",
+  AWSAccessKeyId: "",
+  AWSSecretAccessKey: "t/DStWA",
   bucket: "videocollectionfs",
   acl: "public-read-write",
   region: "us-west-1",
